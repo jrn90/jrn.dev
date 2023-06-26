@@ -2,8 +2,16 @@ baseURL = 'http://jrn.dev/'
 languageCode = 'en-us'
 title = 'Joseph Nash'
 
-enableEmoji = true
+enableEmoji = false
 enableRobotsTXT = true
+
+[menu]
+
+[[menu.main]]
+name = "Download Resume"
+identifier = "resume"
+weight = 100
+url = "resume/joseph-r-nash-resume.pdf"
 
 [params]
 title = 'Joseph Nash'
